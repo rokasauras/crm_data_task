@@ -1,0 +1,263 @@
+-- Data Executive SQL Test
+
+-- You can find the steps I'm documenting to complete this task below. I've explored the data for a few minutes
+-- so I can understand what I'm looking at. 
+
+-- First I'll create a new database in SQLiteStudio called crm_data.db, and import the three csv files:
+
+-- finance_crm_raw_data.csv
+-- sales_crm_raw_data.csv
+-- operational_crm_raw_data.csv
+
+
+
+
+
+
+
+-- *finance_crm_raw_data* 
+
+-- Most of the data doesn't appear to have any duplicates but I can easily double check this with an SQL query
+
+SELECT
+customer_id,
+COUNT(*) AS times_found
+FROM 
+finance_crm_raw_data
+GROUP BY
+customer_id
+HAVING
+COUNT(*) > 1;
+
+-- Just as expected there's no customer_id duplicates so no further check is needed.
+
+-- I'll now create a make a new table called finance_crm_clean, as I dont want to edit the raw table! 
+-- I've also changed the data types as they appeared to all be TEXT (not very gold standard)
+
+CREATE TABLE finance_crm_clean (
+customer_id	INTEGER,
+company_name	TEXT,
+amount_billed	REAL,
+billing_date	DATE,
+payment_status	TEXT
+);
+
+-- Now I'll insert the data from the raw file into the clean file. Unfortunately I've chosen to use SQLiteStudio 
+-- which is missing some calls, and I have to use longer standard quiries.
+
+INSERT INTO finance_crm_clean
+SELECT
+CAST(customer_id AS INTEGER),
+company_name,
+CAST(amount_billed AS REAL),
+SUBSTR(billing_date, 7, 4) || '-' || SUBSTR(billing_date, 4, 2) || '-' || SUBSTR(billing_date, 1, 2), payment_status
+FROM finance_crm_raw_data;
+
+
+
+
+
+
+-- *sales_crm_raw_data*
+
+-- Most of the data doesn't appear to have any duplicates but I can easily double check this with an SQL query
+
+SELECT 
+customer_id,
+COUNT(*) AS count
+FROM 
+sales_crm_raw_data
+GROUP BY 
+customer_id
+HAVING
+COUNT(*) > 1;
+
+-- I'll now create a make a new table called sales_crm_clean.
+-- I've also changed the data types as they appeared to all be TEXT.
+
+CREATE TABLE sales_crm_clean (
+customer_id	INTEGER,
+company_name	TEXT,
+sales_status	TEXT,
+region	TEXT,
+lead_source	TEXT,
+won_date	DATE,
+plan_type	TEXT,
+first_year_revenue	REAL,
+contracted_months	INTEGER
+);
+
+-- Now I'll insert the data from the raw file into the clean file.
+
+INSERT INTO sales_crm_clean
+SELECT
+customer_id,
+company_name,
+sales_status,
+region,
+lead_source,
+SUBSTR(won_date, 7, 4) || '-' || SUBSTR(won_date, 4, 2) || '-' || SUBSTR(won_date, 1, 2),
+plan_type,
+CAST(first_year_revenue AS REAL),
+CAST(contracted_months AS INTEGER)
+FROM sales_crm_raw_data;
+
+-- I've confirmed that everything is updated, and I want to make sales_status and plan_type uppercase
+-- so they stand out, and I can't run into issues later in analysis.
+
+UPDATE
+sales_crm_clean
+SET
+sales_status = UPPER(sales_status),
+plan_type = UPPER(plan_type);
+
+
+
+
+
+
+
+
+
+
+
+
+-- *operational_crm_raw_data*
+
+-- This one I'll need to parse a JSON, however having looked at it, I'm not really sure which created_date to use,
+-- as there are conflicting columns. I'd assume the data for the JSON file came from one place, so I'll use that, but sometimes
+-- the date opened is after the date closed!? 
+
+-- I'll just start by creating a new table called operational_crm_clean
+
+CREATE TABLE operational_crm_clean (
+record_id	INTEGER,
+customer_id	INTEGER,
+ticket_status	TEXT,
+ticket_type	TEXT,
+source	TEXT,
+assigned_to	TEXT,
+created_date	DATE,
+closed_date	DATE
+);
+
+-- I'll parse the JSON and make columns for it in the new file
+
+
+INSERT INTO 
+operational_crm_clean (record_id, customer_id, ticket_status, ticket_type, source, assigned_to, created_date, closed_date)
+SELECT
+CAST(json_extract(fields, '$.Record_ID') AS INTEGER),
+CAST(json_extract(fields, '$."Customer ID"') AS INTEGER),
+json_extract(fields, '$."Ticket Status"'),
+json_extract(fields, '$."Ticket Type"'),
+json_extract(fields, '$.Source'),
+json_extract(fields, '$."Assigned to"'),
+json_extract(fields, '$."Date Created"'),
+json_extract(fields, '$."Date Closed"')
+FROM operational_crm_raw_data;
+
+-- Now I'll just delete duplicates absolute duplicated as it is a big file
+
+DELETE FROM
+operational_crm_clean
+WHERE
+rowid NOT IN (
+SELECT MIN(rowid)
+FROM
+operational_crm_clean
+GROUP BY
+record_id,
+customer_id,
+ticket_status,
+ticket_type,
+source,
+assigned_to,
+created_date,
+closed_date
+);
+
+
+-- *CREATING THE DATA MARTS*
+
+-- Sales Data Mart
+
+CREATE TABLE sales_data_mart AS
+SELECT
+s.customer_id,
+s.company_name AS full_name,
+NULL AS email, -- There's no email data but I'll add it anyway
+s.sales_status,
+s.region,
+s.lead_source,
+s.won_date,
+s.plan_type,
+-- Count the complaints from the operational table
+COALESCE(o.complaint_count, 0) AS count_of_complaints_per_customer
+FROM
+sales_crm_clean s
+LEFT JOIN (
+SELECT
+customer_id,
+COUNT(*) AS complaint_count
+FROM
+operational_crm_clean
+WHERE
+ticket_type = 'Complaint'
+GROUP BY
+customer_id
+) o ON s.customer_id = o.customer_id;
+
+
+-- Finance Data Mart
+
+CREATE TABLE finance_data_mart AS
+SELECT
+f.customer_id,
+s.plan_type,
+f.amount_billed,
+f.billing_date,
+f.payment_status,
+s.region,
+s.first_year_revenue,
+-- Calculates the difference between revenue and billed amount
+(s.first_year_revenue - f.amount_billed) AS difference_revenue_billed
+FROM
+finance_crm_clean f
+LEFT JOIN sales_crm_clean s ON f.customer_id = s.customer_id;
+
+
+
+
+
+-- Operations Data Mart
+
+CREATE TABLE operations_data_mart AS
+SELECT
+o.customer_id,
+o.record_id,
+s.company_name AS full_name,
+NULL AS email, -- Email data is not available
+o.ticket_type,
+s.won_date,
+s.plan_type,
+o.created_date,
+o.closed_date,
+o.assigned_to,
+f.payment_status,
+-- Calculate the days to close a ticket
+JULIANDAY(o.closed_date) - JULIANDAY(o.created_date) AS Number_of_days_to_close_ticket
+FROM
+operational_crm_clean o
+LEFT JOIN sales_crm_clean s ON o.customer_id = s.customer_id
+LEFT JOIN finance_crm_clean f ON o.customer_id = f.customer_id;
+
+
+
+
+
+
+
+
+
+
