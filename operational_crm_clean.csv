@@ -1,0 +1,101 @@
+record_id,customer_id,ticket_status,ticket_type,source,assigned_to,created_date,closed_date
+1,33,Closed,"General Query",Chatbot,"Nicholas Ward",2025-01-02,""
+2,28,"In Progress","General Query",Email,"Austin Miller",2025-05-15,""
+3,3,Assigned,"General Query",Letter,"Aaron Gutierrez",2025-02-15,2025-01-30
+4,12,New,"Sales Query",Chatbot,"Matthew Freeman",2025-03-27,""
+5,22,New,Termination,Phone,"Kelly Mcclain",2025-05-11,2025-05-03
+6,6,Assigned,"General Query",Chatbot,"Isabel Stewart",2025-04-24,""
+7,18,Assigned,Complaint,Email,"Raymond Hobbs",2025-01-25,2025-05-15
+8,14,"In Progress","Billing Query",Phone,"Ruth Watson",2025-05-24,2025-04-30
+9,38,Assigned,"Sales Query",Email,"Manuel Maddox",2025-04-06,2025-01-18
+10,6,"In Progress","Billing Query",Chatbot,"Catherine Reyes",2025-03-12,2025-06-03
+11,29,"In Progress","Sales Query",Chatbot,"Barbara Lloyd",2025-01-25,2025-03-11
+12,39,Closed,Complaint,Chatbot,"Tanner Luna",2025-01-19,""
+13,4,Assigned,"General Query",Letter,"Steven Williams",2025-05-05,2025-01-02
+14,41,New,"Billing Query",Email,"Monica Miller",2025-02-06,2025-04-09
+15,25,Closed,Complaint,Email,"Jessica Suarez",2025-03-26,2025-01-22
+16,43,"In Progress",Other,Letter,"Linda Wallace",2025-05-18,2025-05-02
+17,29,Closed,"General Query",Email,"Thomas Becker",2025-01-07,""
+18,25,"In Progress","General Query",Email,"Andrew Wood",2025-02-26,""
+19,25,Assigned,Other,Letter,"Martha Hoover",2025-02-11,""
+20,32,Assigned,Termination,Phone,"Erik Leonard",2025-03-09,""
+21,18,Closed,"Sales Query",Letter,"Emily Parsons",2025-05-30,""
+22,17,Closed,"Billing Query",Email,"Shawn Jones",2025-02-15,""
+23,1,Closed,"Sales Query",Chatbot,"Christopher James",2025-04-23,""
+24,25,Assigned,"General Query",Email,"Brian Barrera",2025-05-03,2025-02-22
+25,31,New,"Billing Query",Letter,"Todd Adams",2025-02-05,2025-01-24
+26,28,"In Progress","Sales Query",Chatbot,"Tammy Wilson",2025-06-04,2025-05-20
+27,43,"In Progress",Other,Email,"Jacqueline Kelly",2025-02-21,2025-04-17
+28,20,"In Progress","General Query",Phone,"Brian Rose",2025-01-03,2025-01-15
+29,28,"In Progress","Sales Query",Letter,"William Davis",2025-02-23,2025-02-25
+30,30,Assigned,"Billing Query",Phone,"Anne Baird MD",2025-04-17,""
+31,46,Closed,Complaint,Chatbot,"Bradley Wyatt",2025-04-21,2025-05-31
+32,33,Closed,Termination,Email,"Tiffany Roberts",2025-06-05,""
+33,41,New,Other,Phone,"Jesse Anderson",2025-05-19,2025-02-20
+34,22,New,Termination,Phone,"Joseph Rodgers",2025-02-10,2025-04-16
+35,5,New,"General Query",Chatbot,"Stephanie Dickerson",2025-02-27,""
+36,13,Closed,"Billing Query",Phone,"Rachel Anderson MD",2025-03-01,2025-03-08
+37,12,Assigned,Complaint,Phone,"Shannon Garcia",2025-02-18,""
+38,28,New,Other,Letter,"Michelle Gardner",2025-02-01,""
+39,29,"In Progress","Billing Query",Letter,"Kevin Jacobs",2025-05-14,""
+40,44,Assigned,"Billing Query",Chatbot,"Briana Wright",2025-01-14,""
+41,43,"In Progress",Other,Phone,"Erica Orozco",2025-01-26,""
+42,11,New,Termination,Phone,"Matthew Mclaughlin",2025-01-23,""
+43,18,Closed,Complaint,Chatbot,"Eric Smith",2025-03-29,""
+44,27,"In Progress",Termination,Letter,"Rebecca Lowe",2025-02-12,2025-01-19
+45,32,New,"Billing Query",Letter,"Elizabeth Robles",2025-03-05,2025-02-16
+46,43,Closed,"Sales Query",Letter,"Christy Dixon",2025-03-01,2025-05-04
+47,10,"In Progress",Termination,Phone,"Cynthia Joseph",2025-03-10,2025-02-05
+48,25,Closed,"General Query",Letter,"Nathan Mathews",2025-03-23,2025-05-24
+49,9,Assigned,Other,Email,"Tommy Mathews",2025-03-13,2025-02-06
+50,7,Closed,"General Query",Chatbot,"Marissa Rose",2025-04-09,2025-03-27
+51,41,Closed,Complaint,Chatbot,"Susan Brooks",2025-06-07,2025-03-28
+52,41,Assigned,Complaint,Chatbot,"Jeffery Larsen",2025-04-15,2025-03-12
+53,7,Closed,Complaint,Letter,"Jeanne Lewis",2025-01-26,2025-02-23
+54,11,"In Progress","General Query",Letter,"Jennifer Romero",2025-01-26,""
+55,2,Assigned,Termination,Email,"Cynthia Navarro",2025-05-11,""
+56,9,New,"Billing Query",Chatbot,"Brian Ramirez",2025-01-06,2025-01-09
+57,3,Closed,Termination,Chatbot,"Rebecca Barrett",2025-04-22,""
+58,30,"In Progress",Complaint,Phone,"Tammy Wood",2025-05-20,2025-01-30
+59,22,Closed,Complaint,Phone,"Elizabeth David",2025-06-10,""
+60,6,Assigned,"General Query",Letter,"Christopher Mckay",2025-03-13,""
+61,49,Closed,Termination,Chatbot,"Nicholas Johnson",2025-04-25,""
+62,29,New,"Billing Query",Letter,"Kathy Peck",2025-03-24,2025-05-11
+63,42,New,"Sales Query",Letter,"Mitchell Thomas",2025-04-17,2025-02-22
+64,20,New,Other,Letter,"Martha Randall",2025-02-17,2025-03-12
+65,3,New,Complaint,Chatbot,"Nicholas Ferguson MD",2025-04-20,2025-02-05
+66,6,New,Termination,Phone,"Scott Brooks",2025-04-05,""
+67,10,Assigned,"Billing Query",Letter,"Peter Reid",2025-03-27,""
+68,29,"In Progress","General Query",Phone,"Sheryl Evans",2025-04-30,2025-05-22
+69,32,"In Progress",Other,Phone,"Larry Cook",2025-04-01,""
+70,48,"In Progress",Complaint,Letter,"Melissa Rivas",2025-02-08,2025-04-17
+71,37,Assigned,"Billing Query",Phone,"Jason Pruitt",2025-02-04,2025-03-02
+72,29,New,Termination,Email,"Lisa Holt",2025-03-08,2025-02-17
+73,3,Assigned,"Sales Query",Phone,"Mr. Jay Williams",2025-04-16,2025-01-02
+74,34,Closed,"Billing Query",Letter,"Amber Alexander",2025-04-01,2025-01-14
+75,20,Closed,"General Query",Email,"Christopher Johnson",2025-06-06,2025-02-28
+76,1,"In Progress",Other,Chatbot,"Deanna Taylor",2025-01-25,""
+77,35,Assigned,Complaint,Letter,"Kevin Salas",2025-04-14,""
+78,7,Closed,Termination,Email,"Stephanie Johnson",2025-02-01,""
+79,6,New,Complaint,Email,"Gloria Davenport",2025-02-26,2025-05-29
+80,12,Closed,Other,Letter,"Becky Brown",2025-01-19,""
+81,30,Closed,Complaint,Phone,"James Bryant",2025-06-07,2025-02-21
+82,33,Assigned,Complaint,Letter,"Casey Davis",2025-05-03,2025-02-17
+83,42,Assigned,"Billing Query",Letter,"Antonio Johnson",2025-02-04,2025-01-31
+84,25,Assigned,Other,Phone,"Joshua Douglas",2025-06-05,2025-02-25
+85,7,New,"Sales Query",Phone,"Joanna Rosario",2025-02-21,2025-06-08
+86,42,Assigned,Complaint,Email,"Ann Morrison",2025-06-01,""
+87,40,Assigned,"Sales Query",Phone,"Timothy Decker",2025-01-16,""
+88,35,Assigned,"Sales Query",Chatbot,"Amanda Ruiz",2025-02-16,""
+89,3,"In Progress","General Query",Letter,"Latoya Jones",2025-06-08,""
+90,16,Assigned,Termination,Letter,"Isaac Brown",2025-03-22,2025-02-11
+91,7,Assigned,"General Query",Chatbot,"Taylor Johnson",2025-02-06,2025-04-28
+92,34,"In Progress",Complaint,Email,"Richard Watkins",2025-04-28,""
+93,18,Closed,Termination,Letter,"Stacey Kelly",2025-03-21,2025-04-18
+94,16,Closed,"General Query",Letter,"Kevin Grant PhD",2025-04-21,""
+95,19,New,Other,Phone,"Michael Cummings",2025-05-31,""
+96,15,New,"Sales Query",Letter,"Shelley Walsh",2025-05-02,""
+97,49,Assigned,Termination,Email,"Ryan Lee",2025-04-11,2025-01-21
+98,39,"In Progress",Complaint,Email,"Gina Garza",2025-03-30,2025-01-29
+99,22,New,"General Query",Phone,"John Wright",2025-03-23,2025-02-18
+100,16,Closed,"Billing Query",Letter,"Cynthia West",2025-04-26,2025-04-29

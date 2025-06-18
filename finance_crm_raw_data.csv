@@ -1,0 +1,35 @@
+customer_id,company_name,amount_billed,billing_date,payment_status
+35,"Tanner, Rodriguez and Glover",8391,02/03/2025,Overdue
+11,"Johnston, Jackson and Day",9312,24/02/2025,Paid
+3,"Reyes, Moore and Waller",3994,13/02/2025,Paid
+12,"Gardner, Boone and Moody",2375,10/02/2025,Paid
+8,White-Schultz,7128,07/04/2025,Paid
+38,"Gray PLC",5663,08/03/2025,Invoiced
+26,"Graham LLC",1088,08/05/2025,Invoiced
+7,"Torres, Parker and Jordan",7509,27/04/2025,Overdue
+28,"Rush, Perkins and Krueger",9635,21/01/2025,Overdue
+44,"Barnes, Cain and Jefferson",7526,29/05/2025,Invoiced
+37,"Mccarthy, Romero and Sexton",5226,15/04/2025,Overdue
+46,Allen-Sexton,7860,24/04/2025,Invoiced
+16,"Reed LLC",6545,25/05/2025,Paid
+10,"Mejia LLC",4658,07/03/2025,Overdue
+27,"Hill, Yang and Shaw",4929,28/01/2025,Invoiced
+36,King-Valdez,3982,22/01/2025,Overdue
+18,"Liu, Mayo and Adams",6485,23/05/2025,Invoiced
+2,"Duke, Roberts and Robinson",3383,28/01/2025,Paid
+4,Mcbride-Cole,3981,08/05/2025,Invoiced
+48,Brown-Brown,3264,25/05/2025,Overdue
+39,Hart-Hinton,7820,08/01/2025,Overdue
+43,Medina-Davis,1119,30/05/2025,Invoiced
+24,"Harvey, Frost and Thomas",6392,30/03/2025,Overdue
+1,Duncan-Martinez,7676,26/05/2025,Invoiced
+45,"Kirby Ltd",5634,05/05/2025,Paid
+20,"Barnes Group",2976,05/05/2025,Invoiced
+42,Hill-Mason,3000,30/05/2025,Paid
+50,"Mccarthy PLC",5563,20/03/2025,Overdue
+23,"Montes, Simpson and Juarez",5059,15/02/2025,Overdue
+21,"Moran Inc",5107,26/03/2025,Invoiced
+49,Salinas-Anderson,9075,22/02/2025,Paid
+15,Turner-Hernandez,4836,10/02/2025,Invoiced
+31,"Velasquez Inc",8894,23/03/2025,Paid
+5,Walker-Benton,5965,11/05/2025,Overdue

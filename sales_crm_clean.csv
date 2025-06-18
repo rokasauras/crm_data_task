@@ -1,0 +1,60 @@
+customer_id,company_name,sales_status,region,lead_source,won_date,plan_type,first_year_revenue,contracted_months
+46,Allen-Sexton,WON,North,"cold call",2024-09-30,"PLAN 8",5729.0,24
+20,"Barnes Group",NEW,North,email,--,"PLAN 8",0.0,12
+20,"Barnes Group",WON,East,form,2025-03-18,"PLAN 7",2976.0,36
+48,Brown-Brown,WON,North,email,2025-04-25,"PLAN 8",6201.0,12
+48,Brown-Brown,NEW,North,email,--,"PLAN 6",0.0,12
+6,"Burns Inc",LOST,North,form,--,"PLAN 8",7904.0,24
+6,"Burns Inc",WORKING,East,website,--,"PLAN 5",7856.0,12
+9,"Garcia, Mcdaniel and Smith",LOST,North,form,--,"PLAN 8",5037.0,36
+9,"Garcia, Mcdaniel and Smith",LOST,South,"cold call",--,"PLAN 8",3753.0,36
+12,"Gardner, Boone and Moody",WON,West,partner,2024-10-02,"PLAN 8",3237.0,24
+12,"Gardner, Boone and Moody",NEW,East,partner,--,"PLAN 4",0.0,24
+26,"Graham LLC",WON,East,"cold call",2025-02-01,"PLAN 4",9597.0,36
+38,"Gray PLC",WON,East,"cold call",2025-02-21,"PLAN 7",5640.0,12
+39,Hart-Hinton,NEW,South,partner,--,"PLAN 8",0.0,12
+39,Hart-Hinton,WON,East,"cold call",2024-12-08,"PLAN 1",6025.0,36
+42,Hill-Mason,WORKING,South,"cold call",--,"PLAN 4",5182.0,24
+42,Hill-Mason,WON,West,form,2025-03-10,"PLAN 7",2865.0,12
+42,Hill-Mason,LOST,West,website,--,"PLAN 6",9386.0,36
+33,Ibarra-Sanchez,NEW,West,website,--,"PLAN 6",0.0,24
+32,"Johnson, Morrow and Ferguson",LOST,South,website,--,"PLAN 5",2857.0,12
+36,King-Valdez,WON,West,"cold call",2025-02-23,"PLAN 2",7469.0,36
+45,"Kirby Ltd",WORKING,North,"cold call",--,"PLAN 3",3162.0,36
+45,"Kirby Ltd",WON,East,"cold call",2024-10-20,"PLAN 3",5461.0,12
+22,"Lang PLC",WORKING,East,"cold call",--,"PLAN 7",7182.0,24
+22,"Lang PLC",NEW,North,"cold call",--,"PLAN 3",0.0,36
+18,"Liu, Mayo and Adams",WON,West,form,2025-04-23,"PLAN 5",9011.0,24
+4,Mcbride-Cole,WON,East,partner,2025-05-08,"PLAN 3",7117.0,36
+50,"Mccarthy PLC",WON,North,website,2025-02-20,"PLAN 6",5563.0,12
+50,"Mccarthy PLC",LOST,North,partner,--,"PLAN 6",2833.0,12
+37,"Mccarthy, Romero and Sexton",WON,South,email,2024-12-17,"PLAN 2",5964.0,36
+43,Medina-Davis,WORKING,East,email,--,"PLAN 4",4297.0,12
+43,Medina-Davis,WON,East,"cold call",2025-03-30,"PLAN 1",3966.0,12
+47,"Mills Ltd",NEW,South,partner,--,"PLAN 6",0.0,36
+47,"Mills Ltd",LOST,North,partner,--,"PLAN 1",1058.0,12
+23,"Montes, Simpson and Juarez",WON,West,website,2025-01-15,"PLAN 3",5059.0,24
+21,"Moran Inc",WON,East,partner,2025-02-26,"PLAN 1",5107.0,36
+21,"Moran Inc",LOST,West,website,--,"PLAN 3",8412.0,12
+16,"Reed LLC",WON,North,email,2024-08-14,"PLAN 6",6954.0,36
+3,"Reyes, Moore and Waller",WON,East,partner,2025-01-15,"PLAN 7",6551.0,36
+3,"Reyes, Moore and Waller",LOST,West,email,--,"PLAN 8",6058.0,12
+3,"Reyes, Moore and Waller",NEW,East,form,--,"PLAN 3",0.0,36
+28,"Rush, Perkins and Krueger",WON,East,partner,2024-09-06,"PLAN 2",9563.0,24
+49,Salinas-Anderson,WON,East,form,2025-01-22,"PLAN 4",9075.0,12
+19,"Smith LLC",NEW,West,partner,--,"PLAN 4",0.0,24
+7,"Torres, Parker and Jordan",WON,East,website,2025-01-15,"PLAN 2",7798.0,12
+15,Turner-Hernandez,WORKING,South,form,--,"PLAN 3",9195.0,36
+15,Turner-Hernandez,WON,West,website,2025-01-10,"PLAN 7",4836.0,12
+31,"Velasquez Inc",WON,North,"cold call",2025-02-23,"PLAN 1",8894.0,36
+5,Walker-Benton,LOST,West,website,--,"PLAN 7",8056.0,24
+5,Walker-Benton,WON,North,email,2025-04-11,"PLAN 1",5965.0,24
+1,Duncan-Martinez,WON,East,email,2025-01-01,"PLAN 2",9542.0,24
+35,"Tanner, Rodriguez and Glover",WON,North,"cold call",2025-02-02,"PLAN 8",7652.0,36
+11,"Johnston, Jackson and Day",WON,West,partner,2024-12-01,"PLAN 8",9312.0,12
+8,White-Schultz,WON,South,website,2025-02-03,"PLAN 4",5478.0,36
+44,"Barnes, Cain and Jefferson",WON,South,form,2025-05-29,"PLAN 5",7526.0,24
+10,"Mejia LLC",WON,West,partner,2025-03-07,"PLAN 2",4658.0,24
+27,"Hill, Yang and Shaw",WON,North,email,2025-01-28,"PLAN 3",4929.0,12
+2,"Duke, Roberts and Robinson",WON,West,website,2024-12-28,"PLAN 7",3383.0,48
+24,"Harvey, Frost and Thomas",WON,West,partner,2025-02-30,"PLAN 1",6392.0,36

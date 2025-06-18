@@ -1,0 +1,143 @@
+customer_id,record_id,full_name,email,ticket_type,won_date,plan_type,created_date,closed_date,assigned_to,payment_status,Number_of_days_to_close_ticket
+33,1,Ibarra-Sanchez,,"General Query",--,"PLAN 6",2025-01-02,"","Nicholas Ward",,
+28,2,"Rush, Perkins and Krueger",,"General Query",2024-09-06,"PLAN 2",2025-05-15,"","Austin Miller",OVERDUE,
+3,3,"Reyes, Moore and Waller",,"General Query",--,"PLAN 3",2025-02-15,2025-01-30,"Aaron Gutierrez",PAID,-16.0
+3,3,"Reyes, Moore and Waller",,"General Query",--,"PLAN 8",2025-02-15,2025-01-30,"Aaron Gutierrez",PAID,-16.0
+3,3,"Reyes, Moore and Waller",,"General Query",2025-01-15,"PLAN 7",2025-02-15,2025-01-30,"Aaron Gutierrez",PAID,-16.0
+12,4,"Gardner, Boone and Moody",,"Sales Query",--,"PLAN 4",2025-03-27,"","Matthew Freeman",PAID,
+12,4,"Gardner, Boone and Moody",,"Sales Query",2024-10-02,"PLAN 8",2025-03-27,"","Matthew Freeman",PAID,
+22,5,"Lang PLC",,Termination,--,"PLAN 3",2025-05-11,2025-05-03,"Kelly Mcclain",,-8.0
+22,5,"Lang PLC",,Termination,--,"PLAN 7",2025-05-11,2025-05-03,"Kelly Mcclain",,-8.0
+6,6,"Burns Inc",,"General Query",--,"PLAN 5",2025-04-24,"","Isabel Stewart",,
+6,6,"Burns Inc",,"General Query",--,"PLAN 8",2025-04-24,"","Isabel Stewart",,
+18,7,"Liu, Mayo and Adams",,Complaint,2025-04-23,"PLAN 5",2025-01-25,2025-05-15,"Raymond Hobbs",INVOICED,110.0
+14,8,,,"Billing Query",,,2025-05-24,2025-04-30,"Ruth Watson",,-24.0
+38,9,"Gray PLC",,"Sales Query",2025-02-21,"PLAN 7",2025-04-06,2025-01-18,"Manuel Maddox",INVOICED,-78.0
+6,10,"Burns Inc",,"Billing Query",--,"PLAN 5",2025-03-12,2025-06-03,"Catherine Reyes",,83.0
+6,10,"Burns Inc",,"Billing Query",--,"PLAN 8",2025-03-12,2025-06-03,"Catherine Reyes",,83.0
+29,11,,,"Sales Query",,,2025-01-25,2025-03-11,"Barbara Lloyd",,45.0
+39,12,Hart-Hinton,,Complaint,--,"PLAN 8",2025-01-19,"","Tanner Luna",OVERDUE,
+39,12,Hart-Hinton,,Complaint,2024-12-08,"PLAN 1",2025-01-19,"","Tanner Luna",OVERDUE,
+4,13,Mcbride-Cole,,"General Query",2025-05-08,"PLAN 3",2025-05-05,2025-01-02,"Steven Williams",INVOICED,-123.0
+41,14,,,"Billing Query",,,2025-02-06,2025-04-09,"Monica Miller",,62.0
+25,15,,,Complaint,,,2025-03-26,2025-01-22,"Jessica Suarez",,-63.0
+43,16,Medina-Davis,,Other,--,"PLAN 4",2025-05-18,2025-05-02,"Linda Wallace",INVOICED,-16.0
+43,16,Medina-Davis,,Other,2025-03-30,"PLAN 1",2025-05-18,2025-05-02,"Linda Wallace",INVOICED,-16.0
+29,17,,,"General Query",,,2025-01-07,"","Thomas Becker",,
+25,18,,,"General Query",,,2025-02-26,"","Andrew Wood",,
+25,19,,,Other,,,2025-02-11,"","Martha Hoover",,
+32,20,"Johnson, Morrow and Ferguson",,Termination,--,"PLAN 5",2025-03-09,"","Erik Leonard",,
+18,21,"Liu, Mayo and Adams",,"Sales Query",2025-04-23,"PLAN 5",2025-05-30,"","Emily Parsons",INVOICED,
+17,22,,,"Billing Query",,,2025-02-15,"","Shawn Jones",,
+1,23,Duncan-Martinez,,"Sales Query",2025-01-01,"PLAN 2",2025-04-23,"","Christopher James",INVOICED,
+25,24,,,"General Query",,,2025-05-03,2025-02-22,"Brian Barrera",,-70.0
+31,25,"Velasquez Inc",,"Billing Query",2025-02-23,"PLAN 1",2025-02-05,2025-01-24,"Todd Adams",PAID,-12.0
+28,26,"Rush, Perkins and Krueger",,"Sales Query",2024-09-06,"PLAN 2",2025-06-04,2025-05-20,"Tammy Wilson",OVERDUE,-15.0
+43,27,Medina-Davis,,Other,--,"PLAN 4",2025-02-21,2025-04-17,"Jacqueline Kelly",INVOICED,55.0
+43,27,Medina-Davis,,Other,2025-03-30,"PLAN 1",2025-02-21,2025-04-17,"Jacqueline Kelly",INVOICED,55.0
+20,28,"Barnes Group",,"General Query",--,"PLAN 8",2025-01-03,2025-01-15,"Brian Rose",INVOICED,12.0
+20,28,"Barnes Group",,"General Query",2025-03-18,"PLAN 7",2025-01-03,2025-01-15,"Brian Rose",INVOICED,12.0
+28,29,"Rush, Perkins and Krueger",,"Sales Query",2024-09-06,"PLAN 2",2025-02-23,2025-02-25,"William Davis",OVERDUE,2.0
+30,30,,,"Billing Query",,,2025-04-17,"","Anne Baird MD",,
+46,31,Allen-Sexton,,Complaint,2024-09-30,"PLAN 8",2025-04-21,2025-05-31,"Bradley Wyatt",INVOICED,40.0
+33,32,Ibarra-Sanchez,,Termination,--,"PLAN 6",2025-06-05,"","Tiffany Roberts",,
+41,33,,,Other,,,2025-05-19,2025-02-20,"Jesse Anderson",,-88.0
+22,34,"Lang PLC",,Termination,--,"PLAN 3",2025-02-10,2025-04-16,"Joseph Rodgers",,65.0
+22,34,"Lang PLC",,Termination,--,"PLAN 7",2025-02-10,2025-04-16,"Joseph Rodgers",,65.0
+5,35,Walker-Benton,,"General Query",--,"PLAN 7",2025-02-27,"","Stephanie Dickerson",OVERDUE,
+5,35,Walker-Benton,,"General Query",2025-04-11,"PLAN 1",2025-02-27,"","Stephanie Dickerson",OVERDUE,
+13,36,,,"Billing Query",,,2025-03-01,2025-03-08,"Rachel Anderson MD",,7.0
+12,37,"Gardner, Boone and Moody",,Complaint,--,"PLAN 4",2025-02-18,"","Shannon Garcia",PAID,
+12,37,"Gardner, Boone and Moody",,Complaint,2024-10-02,"PLAN 8",2025-02-18,"","Shannon Garcia",PAID,
+28,38,"Rush, Perkins and Krueger",,Other,2024-09-06,"PLAN 2",2025-02-01,"","Michelle Gardner",OVERDUE,
+29,39,,,"Billing Query",,,2025-05-14,"","Kevin Jacobs",,
+44,40,"Barnes, Cain and Jefferson",,"Billing Query",2025-05-29,"PLAN 5",2025-01-14,"","Briana Wright",INVOICED,
+43,41,Medina-Davis,,Other,--,"PLAN 4",2025-01-26,"","Erica Orozco",INVOICED,
+43,41,Medina-Davis,,Other,2025-03-30,"PLAN 1",2025-01-26,"","Erica Orozco",INVOICED,
+11,42,"Johnston, Jackson and Day",,Termination,2024-12-01,"PLAN 8",2025-01-23,"","Matthew Mclaughlin",PAID,
+18,43,"Liu, Mayo and Adams",,Complaint,2025-04-23,"PLAN 5",2025-03-29,"","Eric Smith",INVOICED,
+27,44,"Hill, Yang and Shaw",,Termination,2025-01-28,"PLAN 3",2025-02-12,2025-01-19,"Rebecca Lowe",INVOICED,-24.0
+32,45,"Johnson, Morrow and Ferguson",,"Billing Query",--,"PLAN 5",2025-03-05,2025-02-16,"Elizabeth Robles",,-17.0
+43,46,Medina-Davis,,"Sales Query",--,"PLAN 4",2025-03-01,2025-05-04,"Christy Dixon",INVOICED,64.0
+43,46,Medina-Davis,,"Sales Query",2025-03-30,"PLAN 1",2025-03-01,2025-05-04,"Christy Dixon",INVOICED,64.0
+10,47,"Mejia LLC",,Termination,2025-03-07,"PLAN 2",2025-03-10,2025-02-05,"Cynthia Joseph",OVERDUE,-33.0
+25,48,,,"General Query",,,2025-03-23,2025-05-24,"Nathan Mathews",,62.0
+9,49,"Garcia, Mcdaniel and Smith",,Other,--,"PLAN 8",2025-03-13,2025-02-06,"Tommy Mathews",,-35.0
+9,49,"Garcia, Mcdaniel and Smith",,Other,--,"PLAN 8",2025-03-13,2025-02-06,"Tommy Mathews",,-35.0
+7,50,"Torres, Parker and Jordan",,"General Query",2025-01-15,"PLAN 2",2025-04-09,2025-03-27,"Marissa Rose",OVERDUE,-13.0
+41,51,,,Complaint,,,2025-06-07,2025-03-28,"Susan Brooks",,-71.0
+41,52,,,Complaint,,,2025-04-15,2025-03-12,"Jeffery Larsen",,-34.0
+7,53,"Torres, Parker and Jordan",,Complaint,2025-01-15,"PLAN 2",2025-01-26,2025-02-23,"Jeanne Lewis",OVERDUE,28.0
+11,54,"Johnston, Jackson and Day",,"General Query",2024-12-01,"PLAN 8",2025-01-26,"","Jennifer Romero",PAID,
+2,55,"Duke, Roberts and Robinson",,Termination,2024-12-28,"PLAN 7",2025-05-11,"","Cynthia Navarro",PAID,
+9,56,"Garcia, Mcdaniel and Smith",,"Billing Query",--,"PLAN 8",2025-01-06,2025-01-09,"Brian Ramirez",,3.0
+9,56,"Garcia, Mcdaniel and Smith",,"Billing Query",--,"PLAN 8",2025-01-06,2025-01-09,"Brian Ramirez",,3.0
+3,57,"Reyes, Moore and Waller",,Termination,--,"PLAN 3",2025-04-22,"","Rebecca Barrett",PAID,
+3,57,"Reyes, Moore and Waller",,Termination,--,"PLAN 8",2025-04-22,"","Rebecca Barrett",PAID,
+3,57,"Reyes, Moore and Waller",,Termination,2025-01-15,"PLAN 7",2025-04-22,"","Rebecca Barrett",PAID,
+30,58,,,Complaint,,,2025-05-20,2025-01-30,"Tammy Wood",,-110.0
+22,59,"Lang PLC",,Complaint,--,"PLAN 3",2025-06-10,"","Elizabeth David",,
+22,59,"Lang PLC",,Complaint,--,"PLAN 7",2025-06-10,"","Elizabeth David",,
+6,60,"Burns Inc",,"General Query",--,"PLAN 5",2025-03-13,"","Christopher Mckay",,
+6,60,"Burns Inc",,"General Query",--,"PLAN 8",2025-03-13,"","Christopher Mckay",,
+49,61,Salinas-Anderson,,Termination,2025-01-22,"PLAN 4",2025-04-25,"","Nicholas Johnson",PAID,
+29,62,,,"Billing Query",,,2025-03-24,2025-05-11,"Kathy Peck",,48.0
+42,63,Hill-Mason,,"Sales Query",--,"PLAN 4",2025-04-17,2025-02-22,"Mitchell Thomas",PAID,-54.0
+42,63,Hill-Mason,,"Sales Query",--,"PLAN 6",2025-04-17,2025-02-22,"Mitchell Thomas",PAID,-54.0
+42,63,Hill-Mason,,"Sales Query",2025-03-10,"PLAN 7",2025-04-17,2025-02-22,"Mitchell Thomas",PAID,-54.0
+20,64,"Barnes Group",,Other,--,"PLAN 8",2025-02-17,2025-03-12,"Martha Randall",INVOICED,23.0
+20,64,"Barnes Group",,Other,2025-03-18,"PLAN 7",2025-02-17,2025-03-12,"Martha Randall",INVOICED,23.0
+3,65,"Reyes, Moore and Waller",,Complaint,--,"PLAN 3",2025-04-20,2025-02-05,"Nicholas Ferguson MD",PAID,-74.0
+3,65,"Reyes, Moore and Waller",,Complaint,--,"PLAN 8",2025-04-20,2025-02-05,"Nicholas Ferguson MD",PAID,-74.0
+3,65,"Reyes, Moore and Waller",,Complaint,2025-01-15,"PLAN 7",2025-04-20,2025-02-05,"Nicholas Ferguson MD",PAID,-74.0
+6,66,"Burns Inc",,Termination,--,"PLAN 5",2025-04-05,"","Scott Brooks",,
+6,66,"Burns Inc",,Termination,--,"PLAN 8",2025-04-05,"","Scott Brooks",,
+10,67,"Mejia LLC",,"Billing Query",2025-03-07,"PLAN 2",2025-03-27,"","Peter Reid",OVERDUE,
+29,68,,,"General Query",,,2025-04-30,2025-05-22,"Sheryl Evans",,22.0
+32,69,"Johnson, Morrow and Ferguson",,Other,--,"PLAN 5",2025-04-01,"","Larry Cook",,
+48,70,Brown-Brown,,Complaint,--,"PLAN 6",2025-02-08,2025-04-17,"Melissa Rivas",OVERDUE,68.0
+48,70,Brown-Brown,,Complaint,2025-04-25,"PLAN 8",2025-02-08,2025-04-17,"Melissa Rivas",OVERDUE,68.0
+37,71,"Mccarthy, Romero and Sexton",,"Billing Query",2024-12-17,"PLAN 2",2025-02-04,2025-03-02,"Jason Pruitt",OVERDUE,26.0
+29,72,,,Termination,,,2025-03-08,2025-02-17,"Lisa Holt",,-19.0
+3,73,"Reyes, Moore and Waller",,"Sales Query",--,"PLAN 3",2025-04-16,2025-01-02,"Mr. Jay Williams",PAID,-104.0
+3,73,"Reyes, Moore and Waller",,"Sales Query",--,"PLAN 8",2025-04-16,2025-01-02,"Mr. Jay Williams",PAID,-104.0
+3,73,"Reyes, Moore and Waller",,"Sales Query",2025-01-15,"PLAN 7",2025-04-16,2025-01-02,"Mr. Jay Williams",PAID,-104.0
+34,74,,,"Billing Query",,,2025-04-01,2025-01-14,"Amber Alexander",,-77.0
+20,75,"Barnes Group",,"General Query",--,"PLAN 8",2025-06-06,2025-02-28,"Christopher Johnson",INVOICED,-98.0
+20,75,"Barnes Group",,"General Query",2025-03-18,"PLAN 7",2025-06-06,2025-02-28,"Christopher Johnson",INVOICED,-98.0
+1,76,Duncan-Martinez,,Other,2025-01-01,"PLAN 2",2025-01-25,"","Deanna Taylor",INVOICED,
+35,77,"Tanner, Rodriguez and Glover",,Complaint,2025-02-02,"PLAN 8",2025-04-14,"","Kevin Salas",OVERDUE,
+7,78,"Torres, Parker and Jordan",,Termination,2025-01-15,"PLAN 2",2025-02-01,"","Stephanie Johnson",OVERDUE,
+6,79,"Burns Inc",,Complaint,--,"PLAN 5",2025-02-26,2025-05-29,"Gloria Davenport",,92.0
+6,79,"Burns Inc",,Complaint,--,"PLAN 8",2025-02-26,2025-05-29,"Gloria Davenport",,92.0
+12,80,"Gardner, Boone and Moody",,Other,--,"PLAN 4",2025-01-19,"","Becky Brown",PAID,
+12,80,"Gardner, Boone and Moody",,Other,2024-10-02,"PLAN 8",2025-01-19,"","Becky Brown",PAID,
+30,81,,,Complaint,,,2025-06-07,2025-02-21,"James Bryant",,-106.0
+33,82,Ibarra-Sanchez,,Complaint,--,"PLAN 6",2025-05-03,2025-02-17,"Casey Davis",,-75.0
+42,83,Hill-Mason,,"Billing Query",--,"PLAN 4",2025-02-04,2025-01-31,"Antonio Johnson",PAID,-4.0
+42,83,Hill-Mason,,"Billing Query",--,"PLAN 6",2025-02-04,2025-01-31,"Antonio Johnson",PAID,-4.0
+42,83,Hill-Mason,,"Billing Query",2025-03-10,"PLAN 7",2025-02-04,2025-01-31,"Antonio Johnson",PAID,-4.0
+25,84,,,Other,,,2025-06-05,2025-02-25,"Joshua Douglas",,-100.0
+7,85,"Torres, Parker and Jordan",,"Sales Query",2025-01-15,"PLAN 2",2025-02-21,2025-06-08,"Joanna Rosario",OVERDUE,107.0
+42,86,Hill-Mason,,Complaint,--,"PLAN 4",2025-06-01,"","Ann Morrison",PAID,
+42,86,Hill-Mason,,Complaint,--,"PLAN 6",2025-06-01,"","Ann Morrison",PAID,
+42,86,Hill-Mason,,Complaint,2025-03-10,"PLAN 7",2025-06-01,"","Ann Morrison",PAID,
+40,87,,,"Sales Query",,,2025-01-16,"","Timothy Decker",,
+35,88,"Tanner, Rodriguez and Glover",,"Sales Query",2025-02-02,"PLAN 8",2025-02-16,"","Amanda Ruiz",OVERDUE,
+3,89,"Reyes, Moore and Waller",,"General Query",--,"PLAN 3",2025-06-08,"","Latoya Jones",PAID,
+3,89,"Reyes, Moore and Waller",,"General Query",--,"PLAN 8",2025-06-08,"","Latoya Jones",PAID,
+3,89,"Reyes, Moore and Waller",,"General Query",2025-01-15,"PLAN 7",2025-06-08,"","Latoya Jones",PAID,
+16,90,"Reed LLC",,Termination,2024-08-14,"PLAN 6",2025-03-22,2025-02-11,"Isaac Brown",PAID,-39.0
+7,91,"Torres, Parker and Jordan",,"General Query",2025-01-15,"PLAN 2",2025-02-06,2025-04-28,"Taylor Johnson",OVERDUE,81.0
+34,92,,,Complaint,,,2025-04-28,"","Richard Watkins",,
+18,93,"Liu, Mayo and Adams",,Termination,2025-04-23,"PLAN 5",2025-03-21,2025-04-18,"Stacey Kelly",INVOICED,28.0
+16,94,"Reed LLC",,"General Query",2024-08-14,"PLAN 6",2025-04-21,"","Kevin Grant PhD",PAID,
+19,95,"Smith LLC",,Other,--,"PLAN 4",2025-05-31,"","Michael Cummings",,
+15,96,Turner-Hernandez,,"Sales Query",--,"PLAN 3",2025-05-02,"","Shelley Walsh",INVOICED,
+15,96,Turner-Hernandez,,"Sales Query",2025-01-10,"PLAN 7",2025-05-02,"","Shelley Walsh",INVOICED,
+49,97,Salinas-Anderson,,Termination,2025-01-22,"PLAN 4",2025-04-11,2025-01-21,"Ryan Lee",PAID,-80.0
+39,98,Hart-Hinton,,Complaint,--,"PLAN 8",2025-03-30,2025-01-29,"Gina Garza",OVERDUE,-60.0
+39,98,Hart-Hinton,,Complaint,2024-12-08,"PLAN 1",2025-03-30,2025-01-29,"Gina Garza",OVERDUE,-60.0
+22,99,"Lang PLC",,"General Query",--,"PLAN 3",2025-03-23,2025-02-18,"John Wright",,-33.0
+22,99,"Lang PLC",,"General Query",--,"PLAN 7",2025-03-23,2025-02-18,"John Wright",,-33.0
+16,100,"Reed LLC",,"Billing Query",2024-08-14,"PLAN 6",2025-04-26,2025-04-29,"Cynthia West",PAID,3.0
